@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # سەرچاوەکۆدی https://www.bludit.com
 ئەم کانگایە تەواو سەرچاوەکانی سکریپتی ماڵپەڕی [Bludit.com](https://www.bludit.com) لە خۆ دەگرێت.
 
@@ -15,3 +17,5 @@
 
 ڕوسی:
 - https://www.bludit.com/ru/
+
+</dir>
