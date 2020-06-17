@@ -1,0 +1,93 @@
+a {
+	text-decoration: underline;
+}
+
+img {
+	max-width: 100%;
+}
+.footer {
+	text-align: left;
+	background-color: #717171;
+	padding: 2rem;
+	color: white;
+	font-size: 0.9em;
+}
+
+.footer a {
+	color: #fff;
+	margin-right: 10px;
+}
+
+.hero {
+	padding: 2rem 0 15rem 0;
+}
+
+.hero__terminal {
+  width: 60%;
+  margin: -15rem auto 3rem auto;
+  text-align: left;
+  color: white;
+  padding: 0;
+  border-radius: 4px;
+  background-color: #fff;
+  animation: fadeUp 2s;
+  box-shadow: 0px 12px 36.8px 9.2px rgba(0, 0, 0, 0.1);
+
+}
+
+.button--secondary {
+  padding: 10px 22px;
+  border: 1px solid var(--primary-color);
+  transition: all 0.5s ease-out;
+  background: #fbfbfb;
+  text-decoration: none;
+}
+
+.button--secondary:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.wrapper-tweets {
+	width: 30%;
+	min-width: 350px;
+}
+
+.menu {
+	margin-right: 30px;
+}
+
+.menu__item {
+	padding: 1rem 0.5rem;
+}
+
+.menu__item__social {
+	padding: 0.3rem;
+	display: inline-block;
+}
+
+.hero__description {
+	margin: -1rem auto 1rem auto;
+}
+
+h2.section__title {
+	font-size: 1.17em;
+}
+
+@media (max-width: 575.98px) {
+	.button--primary,
+	.button--secondary {
+		display: block;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.hero__terminal {
+		width: 90%;
+		min-height: 213px;
+	}
+
+	.changelog {
+		display: none !important;
+	}
+}
